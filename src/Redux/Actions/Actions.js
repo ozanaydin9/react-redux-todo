@@ -6,7 +6,7 @@ export function getTodos() {
         });
 
         try {
-            const res = await fetch('https://getir-todo-backend.herokuapp.com/todos')
+            const res = await fetch(endpoint)
             const data = await res.json()
 
             dispatch({
