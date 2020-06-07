@@ -3,7 +3,7 @@ import React from 'react'
 import { todoDelete, todoUpdate} from "../../Redux/Actions/Actions";
 import {useDispatch} from "react-redux";
 
-const Todos = ({todo_name, todo_completed, _id}) =>{
+const TodoList = ({todo_name, todo_completed, _id}) =>{
 
     const dispatch = useDispatch();
 
@@ -16,9 +16,9 @@ const Todos = ({todo_name, todo_completed, _id}) =>{
         </>
     )};
 
-Todos.propTypes = {
+TodoList.propTypes = {
     todo_name: PropTypes.string.isRequired,
     todo_completed: PropTypes.bool.isRequired
 };
 
-export default Todos;
+export default TodoList;
