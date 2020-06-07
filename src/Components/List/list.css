@@ -1,0 +1,74 @@
+.list-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    vertical-align: center;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 363px;
+    height: 400px;
+    overflow: auto;
+
+}
+
+.list-text{
+    resize: none;
+    width: 245px;
+    height: 20px;
+    margin-top: 13px;
+    outline: none;
+    border: 1px solid #303030;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.list-text-done{
+    resize: none;
+    width: 245px;
+    height: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #303030;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    padding-left: 5px;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+
+.list-delete{
+    resize: none;
+    width: 50px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 6px;
+    outline: none;
+    border: 1px solid #303030;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}

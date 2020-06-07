@@ -1,0 +1,51 @@
+.todo-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    vertical-align: center;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 363px;
+    height: 205px;
+
+}
+
+.textarea{
+    resize: none;
+    width: 289px;
+    height: 59px;
+    margin-top: 36px;
+    outline: none;
+    border: 1px solid #303030;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    padding-left: 5px;
+}
+
+.add-button {
+    width: 106px;
+    cursor: pointer;
+    height: 32px;
+    margin-top: 39px;
+    outline: none;
+    border:none;
+    background: #3C3C3C;
+    border-radius: 6px;
+}
+
+.add-button-text{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.305em;
+    color: #FFFFFF;
+
+}

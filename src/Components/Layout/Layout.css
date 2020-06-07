@@ -1,0 +1,77 @@
+.main{
+    margin-top: 0;
+    text-align: center;
+    background-color: #3C3C3C;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.box-data{
+    position: relative;
+    top: 40vh;
+    margin: auto;
+}
+
+.todo-button{
+    position: relative;
+    top: 5vh;
+    width: 226px;
+    height: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    margin: auto;
+    letter-spacing: 0.305em;
+    color: #FFFFFF !important;
+    padding: 10px;
+    padding-bottom: 25px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.list-button{
+    position: relative;
+    top: 76vh;
+    width: 226px;
+    height: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    margin: auto;
+    letter-spacing: 0.305em;
+    color: #FFFFFF !important;
+    padding: 10px;
+    padding-bottom: 25px;
+    text-align:center;
+    cursor: pointer;
+}
+.list-button:hover {
+    border: 1px solid white;
+}
+
+.todo-button:hover{
+    border: 1px solid white;
+}
+
+
+
+
+.footer{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #676767;;
+    font-family: 'Orbitron', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.305em;
+}
